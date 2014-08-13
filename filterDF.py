@@ -1,10 +1,10 @@
 import os
 
-def defineDirectory():
-    directoryList = []
-    directoryNames= input('请输入需要过滤的目录名，目录名之间以|隔开：')
-    directoryList = directoryNames.split('|')
-    return directoryList
+#def defineDirectory():
+#    directoryList = []
+#    directoryNames= input('请输入需要过滤的目录名，目录名之间以|隔开：')
+#    directoryList = directoryNames.split('|')
+#    return directoryList
 
 def defineFile():
     fileList = []
