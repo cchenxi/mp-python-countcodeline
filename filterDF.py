@@ -1,5 +1,5 @@
 #import os
-#定义完filterDirectory后才需要
+#定义完filterDirectory后才需要打开注释
 
 #def defineDirectory():
 #    directoryList = []
