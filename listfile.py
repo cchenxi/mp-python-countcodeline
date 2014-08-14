@@ -1,6 +1,7 @@
 import os
 #导入指定项目所在目录的模块
 import defineHost
+#导入过滤模块
 import filterDF
 #导入计算单个文件代码行数的模块
 import countLine
@@ -8,15 +9,19 @@ import countLine
 if __name__ == '__main__':
     #指定目录
     host = defineHost.defineHost()
+    
     #定义行数
     allline = 0
+    
     #定义需要统计的文件数
     allfiles = 0
     
     #定义过滤目录
-    directoryList = filterDF.defineDirectory()
+    #directoryList = filterDF.defineDirectory()
+    
     #定义过滤文件
     fileList = filterDF.defineFile()
+    
     #定义后缀
     suffixList = filterDF.suffixName()
     

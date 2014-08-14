@@ -1,4 +1,5 @@
-import os
+#import os
+#定义完filterDirectory后才需要
 
 #def defineDirectory():
 #    directoryList = []
@@ -7,7 +8,7 @@ import os
 #    return directoryList
 
 def defineFile():
-    fileList = []
+    #fileList = []
     fileNames= input('请输入需要过滤的文件，文件名之间以|隔开：')
     fileList = fileNames.split('|')
     return fileList
