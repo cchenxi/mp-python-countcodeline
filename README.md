@@ -28,6 +28,7 @@ projectName:countCodeLines
 版本说明：V1.0
 ---------------------------------
 参考CSDN博客：http://blog.csdn.net/taylor_tao/article/details/7588610
+谢谢博主！！！
 ---------------------------------
 
 bugs:暂不能指定过滤的目录
