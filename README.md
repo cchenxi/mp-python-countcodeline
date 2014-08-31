@@ -15,12 +15,8 @@ projectName:countCodeLines
 	|
 	|-1.listfile.py
 	|--主文件
-	|-2.defineHost.py
-	|--定义项目所在目录（如：E:/www/countCodeLines）
-	|-3.filterDF.py
-	|--定义需要过滤的目录和文件
-	|-4.countLine.py
-	|--计算代码行数
+	|-2.functions.py
+	|--自定义的函数库
 	|
 ---------------------------------
 
@@ -30,4 +26,9 @@ projectName:countCodeLines
 参考CSDN博客：http://blog.csdn.net/taylor_tao/article/details/7588610
 ---------------------------------
 
-bugs:暂不能指定过滤的目录
+---------------------------------
+更新日志：
+---------------------------------
+modified:2014-08-31
+修改：将多模块删除，合并到functions模块中，小项目避免多文件。
+问题：可适应一般全英文项目，还存在字符集编码问题
