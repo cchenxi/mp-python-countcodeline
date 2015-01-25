@@ -1,4 +1,4 @@
-#filename:listfile.py(main)
+#filename:main.py
 #author:chenxi
 #modified:20140831
 #function:
